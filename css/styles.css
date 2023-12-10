@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Garamond', serif;
+    background-color: rgb(253, 245, 230);
+    color: #000000;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 18px;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #97b5ec;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 12px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #f4f4f4;
+}
+
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px; 
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+#subject-photos .photo-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#subject-photos img {
+    width: 100%;
+    height: 280px;
+    border: solid #97b5ec 3px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 10px; 
+}
+
+#subject-photos .caption {
+    font-style: italic;
+    text-align: center;
+}
+
+#documentary-video {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#production-photos .photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#production-photos img {
+    width: 100%;
+    height: auto;
+    border: solid #97b5ec 3px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+#production-photos .caption {
+    font-style: italic;
+    text-align: center;
+}
+
+#me {
+    max-width: 20%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: solid #97b5ec 10px;
+}
+
+#photo img {
+    max-width: 40%; 
+    height: auto; 
+    border-radius: 8px; 
+    border: solid #97b5ec 10px;
+}
+
+.divider {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+#photo img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    border: solid #97b5ec 10px;
+}
+
+#bio {
+    max-width: 800px;
+}
+
+#skills,
+#achievements {
+    max-width: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
